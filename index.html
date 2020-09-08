@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Bebas+Neue|Courier+Prime|Assistant:300, 700, 800|Pacifico|Spartan:100, 400|Bellota+Text:300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <title>Sumant Guha</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/brand.ico" type="image/icon type" class="logo">
+
+</head>
+
+<body>
+
+    
+
+    <div class="container-fluid">
+        <div class="landing">
+
+            <!-- Background -->
+            <canvas id='background'></canvas>
+
+            <!-- Resume -->
+            <div class="row">
+                <form class='col' id='resume' method="get" action="resume.pdf">
+                    <button class='btn btn-lg' type="submit">Resume</button>
+                </form>
+            </div>
+
+
+            <!-- Introduction Section -->
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class='intro col-md-6 col-sm-12'>
+                    <h3 class='text-white'>Hello, I am</h3>
+                    <h1 class='lettering'>Sumant Guha</h1>
+                    <div class="introBox">
+                        <h2>Exploring the Unkown</h2>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="scrollDown col">
+                    <a data-scroll href="#navbar">
+                        <img src="img/double-down.png" id='arrow'>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Navbar -->
+    <nav id='navbar' class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="col-1"></div>
+            <div class="col-11">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">Experience</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About me -->
+    <div class="about" id="about">
+
+        <div class="row">
+            <h1 class='heading col'>About</h1>
+        </div>
+
+        <div class="row">
+            <q class='col'>The symphony of man and machine has lead us to paths we once believed were beyond our
+                <br> <span>each, a journey I want to leave my footprint on</span></q>
+        </div>
+
+        <div class="descImg row">
+            <div class="col-md-1"></div>
+            <p class='description col-md-5 col-sm-10' data-aos="fade-right"> Hello, World! I'm Sumant, a student
+                intending on studying computer
+                science at the University of Washington, Seattle. Passionate about promoting inclusive education
+                and computational literacy, I love to create, experiement with and develop content for the internet
+                world. I design web products and apps that provide modern interfaces in harmony with sleek and
+                efficient backends.
+
+                <br><br>
+
+                Through my life in college, I worked on a wide variety of captivating and meaningful projects that gave
+                me a fascinating view of software engineering and its power to shape todays digital centeric world. I
+                strive to take part in this revolution and be one step closer to creating a diverse and inclusive world.
+            </p>
+            <div class="col-md-5 col-sm-0 img">
+                <img src="img/myself.jpg" data-aos="fade-left" alt="Me">
+            </div>
+
+            <div class="col-md-1"></div>
+        </div>
+    </div>
+
+    <!-- Skills -->
+    <div class="skills" id='skills'>
+        <h1 class='heading'>Skills</h1>
+
+        <ul class="langs">
+            <li class="java">
+                <p>Java</p>
+                <div id="fullBar">
+                    <div id="levelJava" data-aos="fade-right"></div>
+                </div>
+            </li>
+            <li class="ruby">
+                <p>SQL</p>
+                <div id="fullBar">
+                    <div id="levelSQL" data-aos="fade-right"></div>
+                </div>
+            </li>
+
+            <li class="js">
+                <p>JavaScript</p>
+                <div id="fullBar">
+                    <div id="levelJS" data-aos="fade-right"></div>
+                </div>
+            </li>
+            <li class="html">
+                <p>HTML / CSS</p>
+                <div id="fullBar">
+                    <div id="levelHTML" data-aos="fade-right"></div>
+                </div>
+            </li>
+            <li class="python">
+                <p>Python</p>
+                <div id="fullBar">
+                    <div id="levelPython" data-aos="fade-right"></div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+
+    <!-- Projects -->
+    <div class="projects container-fluid" id="experience">
+
+        <div class="row">
+            <h1 class='heading col'>Experience</h1>
+        </div>
+
+        <div class="row">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-8 mt-5">
+                        <p class='head m-0 p-0'>Undergraduate Teaching Assistant</p>
+                        <p class="sub m-0 p-0">Paul G. Allen School of Computer Science & Engineering</p>
+                        <p class="sub-head">University of Washington, Seattle</p>
+                        <p class='text'>Managed quiz sections with around 25 students and taught introductory Java
+                            programming.
+                            Worked in the Introductory Programming Lab (IPL) by assisting 800+ students to provide
+                            insights on coding errors
+                            Guided students through problem-solving strategies with concepts such as algorithms, data
+                            structures, control flow, and object-oriented programming
+                            Improved communication, and collaboration skills, with a focus on explaining complicated
+                            ideas to students with diverse backgrounds
+                            Responsibilities include teaching, weekly staff meetings, lectures, office hours, and
+                            grading homework assignments</p>
+                    </div>
+
+                    <div class="col-4 align-self-center">
+                        <img src="./img/paul.jpeg" alt="Paul G Allen" class='float-right'>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+
+                    <div class="col-4 align-self-center">
+                        <img src="./img/ey.png" class='float-left l'>
+                    </div>
+
+                    <div class="col-8 mt-5">
+                        <p class='head m-0 p-0'>Machine Learning Intern</p>
+                        <p class="sub m-0 p-0">Ernst & Young</p>
+                        <p class="sub-head">Bengaluru, India</p>
+                        <p class='text'>Worked on building supervised machine learning models for question answering
+                            tasks with dual attention LSTM models.
+                            Member of a team that built a deep learning tax bot to facilitate tax advising. Trained and
+                            developed a model to answer internal tax-related queries.
+                            Created and maintained a platform for tax analytics and recommendation policies</p>
+                    </div>
+                </div>
+
+                <div class="row mb-5">
+                    <div class="col-8 mt-5">
+                        <p class='head m-0 p-0'>Embedded Systems Programmer</p>
+                        <p class="sub m-0 p-0">Husky Robotics</p>
+                        <p class="sub-head">University of Washington, Seattle</p>
+                        <p class='text'>Built a Mars Rover prototype for the University Rover Competition.
+                            Created an embedded systems framework, programming microprocessor boards on the rover to
+                            control parts such as the chassis, arms, and legs.
+                            Developed movement abilities such as forward and inverse kinematics and integrated computer
+                            vision abilities</p>
+                    </div>
+
+                    <div class="col-4 align-self-center">
+                        <img src="./img/husky.png" class='float-right l'>
+                    </div>
+                </div>
+
+                <div class="row ending">
+
+                    <div class="col-4 align-self-center">
+                        <img src="./img/ms.png" class='l float-left'>
+                    </div>
+
+                    <div class="col-8 mt-5">
+                        <p class='head m-0 p-0'>Data Science Intern</p>
+                        <p class="sub m-0 p-0">Mu Sigma Inc.</p>
+                        <p class="sub-head">Bengaluru, India</p>
+                        <p class='text'>Learned and trained methods of Big Data Analytics including exploratory data
+                            analytics, regression, classification, and segmentation.
+                            Built classification models to detect automobile insurance fraud and regression models to
+                            price automotive clients with 85% accuracy.
+                            Model reduced fraud for a global automobile client that was predicted to generate a $2
+                            million increase in annual revenue</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Get in Touch -->
+    <div class="contact" id='contact'>
+        <div class="row"></div>
+        <div class="item">
+            <div class="d">
+                <img src="img/fb.svg" class='i' alt="">
+                <a href="https://www.facebook.com/sumant.guha.1">Facebook</a>
+            </div>
+            <div class="d">
+                <img src="img/mail.svg" class='i' alt="">
+                <a href="mailto:guhas2@uw.edu">Email</a>
+            </div>
+
+            <div class="d">
+                <img src="img/linkedin.svg" class='i' alt="">
+                <a href="https://www.linkedin.com/in/sumantguha99/">LinkedIn</a>
+            </div>
+
+            <div class="d">
+                <img src="img/github.svg" class='i' alt="">
+                <a href="https://github.com/sumantguha">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="jquery.lettering.js"></script>
+<script>
+    var sroll = new SmoothScroll('[data-easing="linear"]', {
+        easing: 'linear'
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $(".lettering").lettering();
+    });
+</script>
+
+
+</html>
